@@ -2,4 +2,95 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: basic-sans, sans-serif;
+}
+h1 {
+    font-weight: bolder;
+    color: aliceblue;
+}
+p {
+    color: aliceblue;
+}
+header {
+    background-image: url(poster.png);
+    background-size: 100%;
+    width: 100vw;
+    height: 42vw;
+}
+#burger {
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position:absolute;
+    left:50px;
+    top:30px;
+    cursor: pointer;
+
+}
+.line {
+    border:black solid 2px;
+    height: 1px;
+    width: 30px;
+    border-radius: 100px;
+}
+#line1 {
+    
+}
+#line2 {
+
+}
+#line3 {
+
+}
+
+main {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+#mancontainer {
+    width: 80%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:4rem;
+}
+.people {
+    width: 18rem;
+    height: 32rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.peoplepic {
+    width: 18rem;
+}
+button {
+    background-color: rgb(161, 34, 34);
+    border:0;
+    height: 30px;
+    width: 140px;
+    color: aliceblue;
+}
+footer {
+    height: 300px;
+    background-color: #333333;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding:5rem;
+}
+ul {
+    list-style-type: none;
+}
+#socialul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
 }
